@@ -1,0 +1,15 @@
+
+                        All of the operations take O(log(n)) time in worst case
+
+1. Here rootlist is implemented as an array of kth order Binomial Trees
+2. Binomial Tree of kth order resides in kth index of root list
+3. merge() function takes two Binomial trees of  order k and creates a single Binomial tree of order k+1
+4. insert_node() function takes newly created node and merge it to the existing heap
+5. min_index() returns the index of munimum root element
+6. create_binomial_heap() takes a Binomial Tree and turns it into a binomial heap
+7. RootList(i) function returns the root element of ith order binomial tree in the rootlist
+8. Max_Order() function returns the maximum order reached int the binomial heap
+9. Union(bh) function takes another binomial heap and union it with the existing binomial heap  which is done by the intuition of addition of two binary numbers 
+10. PrintHeap() this function separately takes  ith order Binomial tree and pass it to Print_Binomial_Tree() which prints a binomial tree level by level
+11. Insert(value) is implemnted by creating a new B0 with the value and performing a union of this B0 with existing Binomial Heap
+12. ExtractMin() function deletes the minimum root in the rootlist and children of the root to be deleted is unified to the existing binomial heap doing union operation
