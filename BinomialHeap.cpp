@@ -2,7 +2,7 @@
 Author :
     Name : Kazi Wasif Amin Shammya
     Institution : Bangladesh University of Engineering and Technology
-
+    check the text file assigned to understand the how the function works 
 */
 
 #include <bits/stdc++.h>
