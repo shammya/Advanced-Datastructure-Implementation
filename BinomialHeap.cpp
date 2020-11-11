@@ -1,3 +1,10 @@
+/*
+Author :
+    Name : Kazi Wasif Amin Shammya
+    Institution : Bangladesh University of Engineering and Technology
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
